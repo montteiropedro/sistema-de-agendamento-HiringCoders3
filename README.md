@@ -10,7 +10,6 @@
         - The .env file
         - Using a Database GUI Client
     - [🤔 What now?!](#🤔-what-now)
----
   
 ## 🛠️ ***Technologies***
   
@@ -21,14 +20,12 @@
     - *[TablePlus](https://tableplus.com) or [Postbird](https://www.electronjs.org/apps/postbird) (Database GUI)*
 - *MongoDB*
     - *[MongoDB Compass](https://www.mongodb.com/try/download/compass) (Database GUI)*
----
   
 ## 🐘 ***Creating a PostgreSQL DB in a Docker Container***
 
 You can run this command in your terminal if you already have Docker installed in your machine.  
 If you dont have a PostgreSQL 14.4 image downloaded yet *it will pull the image in the correct version from Docker Hub automatically.*
   
-<!-- TODO: Concertar o comando docker para baixar a imagem da versão 14.4 do PostgreSQL -->
 ```powershell
 docker run --name <container_name> -e POSTGRES_PASSWORD=<password> -e POSTGRES_USER=<user> -p 5432:5432 -d postgres:14.4 
 ```
@@ -66,7 +63,6 @@ Here are some simple Docker CLI Commands:
     ```
     docker stop <container_name>
     ```
----
 
 ## 🧑‍💻 ***Running the project locally in your machine***
 After downloading the project the first thing you need to do is to download all the packages it will need to work properly.  
