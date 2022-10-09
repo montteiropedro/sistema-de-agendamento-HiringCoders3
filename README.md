@@ -7,7 +7,6 @@
     - [🧑‍💻 *Running the project locally in your machine*](#🧑‍💻-running-the-project-locally-in-your-machine)
         - The .env file
         - PostgreSQL Database and Migrations with Sequelize
-        - The .env file
         - Using a Database GUI Client
     - [🤔 What now?!](#🤔-what-now)
   
